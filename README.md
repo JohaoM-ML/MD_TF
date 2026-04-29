@@ -20,14 +20,15 @@ Se realizaron las siguientes etapas del pipeline de datos:
 ```
  MD_TF
  ┣  DM_TF (2).ipynb               ← Notebook principal con todo el pipeline
- ┣  informe_dm.tex                 ← Informe académico en LaTeX
- ┣  Analisis_Climatico_Peru.xlsx   ← Datos climáticos crudos
+ ┣  Analisis_Climatico_Peru.xlsx   ← código que selecciona, filtra y limpia los datos mensuales para el año 2020. Este se replica para los años siguientes
  ┣  DF_LIMPIO_2020_2025.csv        ← Dataset limpio
  ┣  DF_INTEGRADO_2020_2025.csv     ← Dataset integrado (clima + agricultura)
  ┣  DF_MENSUAL_2020_2025.csv       ← Dataset mensualizado
  ┣  DF_MENSUAL_SCALED_2020_2025.csv← Dataset escalado
  ┣  DF_ACUMULADO_2020_2025.csv     ← Dataset acumulado
  ┣  DF_FINAL_2020_2025.xlsx        ← Dataset final para modelado
+ ┣  ScriptFinal.ipynb                ← código que concatena las diferentes bases de datos en un solo dataframe
+ ┣  Script2020.ipynb                 ← código que selecciona, filtra y limpia los datos mensuales para el año 2020. Este se replica para los años siguientes.
  ┗  README.md
 ```
 
@@ -36,7 +37,6 @@ Se realizaron las siguientes etapas del pipeline de datos:
 - **Python** (pandas, numpy, scikit-learn, matplotlib, seaborn)
 - **Jupyter Notebook**
 - **NASA POWER API**
-- **LaTeX** para el informe académico
 
 ##  Cómo Ejecutar
 
